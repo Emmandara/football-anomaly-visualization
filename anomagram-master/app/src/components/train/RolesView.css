@@ -1,0 +1,19 @@
+/* RolesView.css */
+
+.roles-view-container {
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .chart-wrapper {
+    margin-bottom: 2rem;
+  }
+  
+  .tactical-chart-container {
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+  }
+  

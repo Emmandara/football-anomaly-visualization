@@ -1,0 +1,35 @@
+.line , .predictedline{
+    fill: none;
+    /* stroke: #0062ff; */
+    stroke-width: 2;
+}
+
+.msearea{
+    /* fill: #80808063; */
+    /* fill-opacity: 0; */
+}
+  
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+    fill: #ffab00;
+    stroke: #fff; 
+}
+  
+.focus circle {
+    fill: none;
+    stroke: steelblue;
+}
+
+.domain{
+    stroke: rgba(255,255,255,0);
+}
+
+.legendbottomrightmod{
+    right: 10px;
+    bottom: 50px;
+}

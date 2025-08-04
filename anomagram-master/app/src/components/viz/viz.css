@@ -1,0 +1,158 @@
+.mainecgbox{
+
+}
+
+.ecgdatabox{
+    max-height: 270px;
+    min-width: 340px; 
+    /* overflow: scroll; */
+    /* border: 2px solid pink; */
+}
+
+.ecgdatapoint{
+    /* height: 50px; */
+    /* width: 55px; */
+    border-bottom: solid 3px rgb(252, 252, 252); 
+    background: rgba(214, 214, 214, 0.76);
+    opacity: 1;
+}
+
+.ecgdatapoint:hover{
+   /* background: rgb(255, 185, 80); */
+   opacity: 0.5;
+   border-bottom: solid 3px #0062ff; 
+}
+
+.ecgdatapoint.active{
+    /* background: rgb(80, 255, 246); */
+    border-bottom: solid 3px #0062ff; 
+    opacity: 1;
+ }
+
+ .vizloadingbox{
+     /* border: 1px solid greenyellow; */
+     /* height: 20px; */
+ }
+
+ .lightgreyback{
+     background-color: rgb(241, 240, 240);
+ }
+ .modeloutputbox{
+     /* background:#ffa32c; */
+ }
+ .autoencodervizbox{
+     min-width: 400px;
+ }
+
+ .indicatorcircle{
+     height: 7px;
+     width: 7px;
+     border-radius: 6px;  
+     opacity: 0.95; 
+     border: 1px solid white;
+ }
+
+ .indicatoroutrcircle{
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+ }
+
+ .greenbox{
+     background: green;
+     height: 10px;
+ }
+
+ .redbox{
+    background: red;
+    height: 10px;
+}
+
+.colorbox{
+    transition: background-color 0.5s ease;
+}
+ /* 
+ #ffc815 yellow
+ #292929  dark grey
+#585858 lighter grey
+white 
+black
+ 
+ */
+ .legendrow{
+     background: rgb(211, 211, 211);
+     padding: 5px 8px 5px 5px;
+ }
+
+ .legendrow:hover{
+    background: rgb(238, 238, 238); 
+}
+ .legendrow.active{
+    background:  #0062ff;
+    color: white;
+ }
+
+ .datasettab{
+     background: rgb(218, 218, 218);
+     padding: 10px;
+ }
+.datasettab:hover{
+    background: rgb(218, 218, 218,0.6);
+}
+
+.datasettab.active{
+    background:  #0062ff;
+    color: white;
+}
+
+.datasettab.active:hover{
+    background:  rgba(0, 97, 255, 0.9);
+    /* color: white;  */
+}
+
+.lowerbar{
+    border-bottom: 2px solid #0062ff;
+}
+
+.bwidthtransform{
+    width: 210px;
+}
+
+.thresholdtext{
+    font-size: 30px;
+}
+
+.thresholdbox{
+    background-color: rgba(241, 241, 241, 0.9);
+}
+
+.vizcaption{ 
+}
+
+.w350{
+    max-width: 350px;
+}
+
+.w380{
+    max-width: 380px;
+}
+
+.w400{
+    max-width: 400px;
+}
+
+
+.circlemedium{
+    width: 38px;
+    height: 38px;
+}
+
+.replaylabelbox{
+    width: 75px;
+    /* border: 1px solid pink; */
+    text-align: left;
+}
+.epochvalue{
+    font-size: 3.5em;
+    /* border: 1px solid pink; */
+    width: 66px;
+}

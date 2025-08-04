@@ -1,0 +1,63 @@
+
+
+.smallchartbox{ 
+   
+    border-radius: 4px;
+    margin: 7px 0px 0px 7px;
+    /* padding: 2px; */
+   
+}
+.extractedsignal{
+    /* border-top: 1px solid grey; */
+    padding: 5px 5px 5px 0px;
+}
+.smallchart{
+    /* border: 1px dashed grey; */
+    background: rgba(198, 216, 248, 0.808);
+    border-radius: 3px;
+}
+
+.largechart{
+    /* width: 100%; */
+    border: 1px dashed grey;
+    touch-action: none;
+}
+
+.axisbar{
+    border: 1px dashed grey;
+    height: 100px;
+}
+
+.axisbox{
+    /* border: 1px solid grey;  */
+    width: 10px;
+}
+
+.axiscell{
+   border-top: 1px solid grey;
+   position: relative;
+  
+}
+
+.xaxiscell{
+    border-left: 1px solid grey;
+    margin-top: 4px;
+    /* position: relative;  */
+ }
+
+ .xaxiscelltext{
+    /* font-weight: bold; */
+    font-size: 0.75em;
+    padding-left: 2px;
+}
+.axiscelltext{
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    padding-bottom: 3px;
+    /* font-weight: bold; */
+    font-size: 0.75em;
+}
+.horizontalaxis{
+    margin-left:15px;
+}
